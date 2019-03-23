@@ -159,6 +159,7 @@ p {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  margin-top: 100px;
 }
 .nav {
   display: flex;
@@ -166,7 +167,10 @@ p {
   justify-content: flex-start;
   align-items: center;
   align-content: stretch;
-  background-color: #f6f6f6;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgba(246, 246, 246, 0.9);
   padding: 1.5rem 0;
 }
 .nav .nav-header {
