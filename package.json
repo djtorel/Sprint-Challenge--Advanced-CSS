@@ -5,6 +5,9 @@
   "repository": "git@github.com:djtorel/Sprint-Challenge--Advanced-CSS.git",
   "author": "Dominic Torruellas <dom@domtorr.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "less-watch-compiler less css index.less"
+  },
   "devDependencies": {
     "stylelint": "^9.10.1",
     "stylelint-config-standard": "^18.2.0"
