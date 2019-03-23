@@ -214,6 +214,9 @@ footer {
   height: 100%;
 }
 @media (max-width: 500px) {
+  .home .space-images {
+    padding: 0 1rem;
+  }
   .home .space-images .blast {
     width: 100%;
   }
