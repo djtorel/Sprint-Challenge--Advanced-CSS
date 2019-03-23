@@ -202,6 +202,11 @@ footer {
   width: 100%;
   border-radius: 0.5rem;
 }
+@media (max-width: 500px) {
+  .home .intro h2 + p {
+    padding: 0 2rem;
+  }
+}
 .home .space-images {
   display: flex;
   flex-wrap: wrap;
