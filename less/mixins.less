@@ -33,9 +33,20 @@
   font-weight: bold;
   padding: 0.75rem 0;
   text-align: center;
+  transition: color 0.15s ease-in, background-color 0.15s ease-in;
 
   &:hover {
     background-color: @color;
     color: @bg-color;
+    transition: color 0.15s ease-in, background-color 0.15s ease-in;
+  }
+}
+
+// Transition mixin
+.lighten-on-hover(@color) {
+  transition: color 0.15s ease-in;
+  &:hover {
+    color: lighten(@color, 30%);
+    transition: color 0.15s ease-in;
   }
 }

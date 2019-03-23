@@ -178,10 +178,15 @@ p {
   margin-bottom: 1.5rem;
 }
 .nav .nav-link {
+  transition: color 0.15s ease-in;
   color: black;
   text-decoration: none;
   font-size: 1.5rem;
   margin-left: 3rem;
+}
+.nav .nav-link:hover {
+  color: #4d4d4d;
+  transition: color 0.15s ease-in;
 }
 .nav .nav-link:nth-child(1) {
   margin-left: 0;
@@ -272,10 +277,12 @@ footer {
   font-weight: bold;
   padding: 0.75rem 0;
   text-align: center;
+  transition: color 0.15s ease-in, background-color 0.15s ease-in;
 }
 .home .walk .walk-text .btn:hover {
   background-color: white;
   color: #22283a;
+  transition: color 0.15s ease-in, background-color 0.15s ease-in;
 }
 .home .walk .walk-img {
   width: 46%;
