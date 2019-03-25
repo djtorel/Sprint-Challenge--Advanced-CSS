@@ -1,1 +1,28 @@
 // Navigation code here
+.nav {
+  .col(@align: center);
+
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgba(#f6f6f6, 90%);
+  padding: 1.5rem 0;
+
+  .nav-header {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .nav-link {
+    @nav-color: black;
+    .lighten-on-hover(@nav-color);
+
+    color: @nav-color;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    &:nth-child(1) {
+      margin-left: 0;
+    }
+  }
+}
